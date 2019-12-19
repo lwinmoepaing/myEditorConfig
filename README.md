@@ -20,3 +20,7 @@ npm run eslint -s
 			"prettier": "1.19.1"
 		}
 ```
+
+### Inside Pretteir
+
+-You need to change No Spacing Bracket(Array)
