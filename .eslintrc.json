@@ -1,0 +1,38 @@
+{
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "error",
+        "no-debugger": "error",
+        "no-multiple-empty-lines": "warn",
+        "no-var": "error",
+        "prefer-const": "error"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2016,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended"
+}
