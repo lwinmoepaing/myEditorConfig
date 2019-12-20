@@ -1,11 +1,11 @@
 {
-	  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.lineHeight": 25,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.format.enable": true
+	"editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.lineHeight": 25,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+	},
+	"eslint.format.enable": true
 }

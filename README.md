@@ -17,13 +17,14 @@ npm run eslint -s
 	"chai": "^4.2.0",
 	"cross-env": "^5.0.1",
 	"mocha": "^6.2.2",
-	"nodemon": "^1.11.0"
+	"nodemon": "^1.11.0",
+	"proxyquire": "^2.1.3",
+	"sinon": "^7.5.0",
+	"sinon-chai": "^3.3.0"
 }
 ```
 
-### Inside Pretteir
-
--You need to change No Spacing Bracket(Array)
+Sinon.JS Stubs [ Controlling Responses with Stubs ]
 
 ### Sample VsCode Config
 
