@@ -1,48 +1,29 @@
 {
-	"globals": {
-			"Atomics": "readonly",
-			"SharedArrayBuffer": "readonly"
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "rules": {
+		"indent": ["error", "tab"],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+		"no-multiple-empty-lines": "warn",
+		"max-len": ["error", { "code": 100, "tabWidth": 4 }],
+		"no-var": "error",
+		"prefer-const": "error",
+		"comma-spacing": ["error", {"after": true}],
+    "no-console": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2016,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true
 	},
-	"rules": {
-			"indent": [
-					"error",
-					"tab"
-			],
-			"linebreak-style": [
-					"error",
-					"unix"
-			],
-			"semi": [
-					"error",
-					"always"
-			],
-			"no-console": "error",
-			"no-multiple-empty-lines": "warn",
-			"no-var": "error",
-			"prefer-const": "error",
-			"prettier/prettier": [
-				"error",
-				{
-					"semi": true,
-					"singleQuote": true,
-					"tabWidth": 2
-				}
-			]
-	},
-	"parserOptions": {
-		"ecmaVersion": 2016,
-		"sourceType": "module"
-	},
-	"env": {
-		"node": true,
-		"es6": true,
-		"commonjs": true
-	},
-	"extends": [
-		"eslint:recommended",
-		"plugin:prettier/recommended"
-	],
-	"plugins": [
-		"prettier"
-	]
+  "extends": [
+    "eslint:recommended"
+  ]
 }
